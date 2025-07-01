@@ -2,7 +2,7 @@
 This project controls three different LEDs (red, green, and blue) using a single push button. Each time the button is pressed, a different LED turns on, and the previous one turns off.
 
 
-
+<img width="694" alt="Image" src="https://github.com/user-attachments/assets/dbf30b87-af72-4a35-b6df-b4a30e639a54" />
 
 The circuit was built and tested using Tinkercad Circuits, an online simulation platform.
 
