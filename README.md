@@ -7,6 +7,7 @@ This project controls three different LEDs (red, green, and blue) using a single
 The circuit was built and tested using Tinkercad Circuits, an online simulation platform.
 
 How It Works
+
 Button 1 (connected to pin 7) → controls LED 1 (pin 13): ON for 1s, OFF for 0.5s
 
 Button 2 (pin 4) → controls LED 2 (pin 12): blinks every 300ms
