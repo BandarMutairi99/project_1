@@ -6,7 +6,7 @@ This project controls three different LEDs (red, green, and blue) using a single
 
 The circuit was built and tested using Tinkercad Circuits, an online simulation platform.
 
-How It Works
+How It Works:
 
 Button 1 (connected to pin 7) → controls LED 1 (pin 13): ON for 1s, OFF for 0.5s
 
@@ -22,7 +22,7 @@ This project teaches basic digital input/output handling and control logic in Ar
 
 
 
-Tools and Platform
+Tools and Platform:
 
 Tinkercad Circuits
 
