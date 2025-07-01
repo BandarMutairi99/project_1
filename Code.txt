@@ -1,0 +1,44 @@
+// C++ code
+//
+void setup()
+{
+  pinMode(13, OUTPUT);
+  pinMode(12, OUTPUT);
+  pinMode(8, OUTPUT);
+  pinMode(7, INPUT);
+  pinMode(4, INPUT);
+  pinMode(2, INPUT);
+  
+}
+
+void loop()
+{
+  if (digitalRead(7) == HIGH)
+  {
+    
+  digitalWrite(13, HIGH);
+  delay(1000);
+ 
+  digitalWrite(13, LOW);
+  delay(500); 
+  }
+  else if(digitalRead(4) == HIGH)
+  {
+  digitalWrite(12, HIGH);
+  delay(300); 
+  digitalWrite(12, LOW);
+  delay(300); 
+}
+  else if(digitalRead(2) == HIGH)
+  {
+  digitalWrite(8, HIGH);
+  delay(200); 
+  digitalWrite(8, LOW);
+  delay(200);
+  }
+  else {
+    digitalWrite(13, LOW);
+    digitalWrite(12, LOW);
+    digitalWrite(8, LOW);
+  }
+}
