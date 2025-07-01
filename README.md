@@ -17,6 +17,7 @@ If no buttons are pressed, all LEDs stay OFF.
 
 This project teaches basic digital input/output handling and control logic in Arduino.
 
+
 Tools and Platform
 Tinkercad Circuits
 
